@@ -1,0 +1,12 @@
+#NavLogo{
+    width: 20%;
+    margin-left: 10%;
+}
+#carouselExampleCaptions{
+    width: 100%;
+    padding: 0;
+}
+#carrouselInicial img {
+    max-height: 40rem; /* Defina a altura máxima desejada para as imagens */
+    width: auto; /* Isso garantirá que a largura seja ajustada automaticamente para manter a proporção */
+  }
