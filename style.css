@@ -7,6 +7,59 @@
     padding: 0;
 }
 #carrouselInicial img {
-    max-height: 40rem; /* Defina a altura máxima desejada para as imagens */
+    max-height: 35rem; /* Defina a altura máxima desejada para as imagens */
     width: auto; /* Isso garantirá que a largura seja ajustada automaticamente para manter a proporção */
-  }
+}
+.muda-cor:hover{
+    background-color: rgb(224, 64, 38);
+    border-radius: 2.5rem;
+    height: 100%;
+    width: 95%;
+}
+body, html {
+    height:100%;
+}
+#Sobre{
+    margin-top: 1rem;
+}
+#Servicos{
+    background-color: rgb(247, 247, 247);
+}
+#carrouselManutencao img{
+    max-height: 15rem;
+    width: auto;
+}
+#carrouselManutencao{
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrouselCM img{
+    max-height: 15rem;
+    width: auto;
+}
+#carrouselCM{
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrouselFacilites img{
+    max-height: 15rem;
+    width: auto;
+}
+#carrouselFacilites{
+    margin-left: auto;
+    margin-right: auto;
+}
+#carrouselSO img{
+    max-height: 15rem;
+    width: auto;
+}
+#carrouselSO{
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    margin-bottom: 5%;
+}
+.Galeria{
+    margin-top: 1rem;
+}
