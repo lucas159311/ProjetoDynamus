@@ -106,9 +106,18 @@ table img:hover{
 #Direitos a:hover{
     color: white;
 }
-#Contato iframe{
-    width: 30rem;
-    height: 20rem;
+#endereco{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+#endereco iframe{
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    position:absolute;
 }
 #Contato img{
     width: 5rem;
