@@ -1,3 +1,8 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 #NavLogo{
     width: 20%;
     margin-left: 10%;
@@ -15,9 +20,6 @@
     border-radius: 2.5rem;
     height: 100%;
     width: 95%;
-}
-body, html {
-    height:100%;
 }
 #Sobre{
     margin-top: 1rem;
@@ -57,9 +59,82 @@ body, html {
     margin-left: auto;
     margin-right: auto;
 }
+#carrouselGaleria img{
+    max-height: 35rem;
+    width: auto;
+}
+#carrouselGaleria{
+    margin-left: auto;
+    margin-right: auto;
+}
 h3{
     margin-bottom: 5%;
 }
 .Galeria{
     margin-top: 1rem;
+}
+#Clientes{
+    background-color: rgb(247, 247, 247);
+}
+.tabela{
+    margin-left: auto;
+    margin-right: auto;
+}
+table img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+table img:hover{
+    transform: scale(1.1);
+}
+#Contato{
+    bottom: 0; 
+    width: 100%;
+    background: rgb(224, 64, 38);
+    height: 36rem;
+    color: white;
+}
+#Direitos{
+    background: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+}
+#Direitos a:hover{
+    color: white;
+}
+#Contato iframe{
+    width: 30rem;
+    height: 20rem;
+}
+#Contato img{
+    width: 5rem;
+    height: 5rem;
+}
+#Contato a:hover{
+    color: white;
+}
+.whatsapp-botao {
+    position: fixed;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    background-color: rgb(37, 211, 102);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.whatsapp-botao img {
+    width: 2.5rem;
+    height: auto;
+}
+.whatsapp-botao:hover {
+    background-color: rgb(18, 140, 78);
 }
