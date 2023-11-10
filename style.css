@@ -10,6 +10,7 @@ body, html {
 #carouselExampleCaptions{
     width: 100%;
     padding: 0;
+    
 }
 #carrouselInicial img {
     max-height: 35rem; /* Defina a altura máxima desejada para as imagens */
@@ -68,13 +69,13 @@ body, html {
     margin-right: auto;
 }
 h3{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+}
+ul{
+    margin-top: 1%;
 }
 .Galeria{
     margin-top: 1rem;
-}
-#Clientes{
-    background-color: rgb(247, 247, 247);
 }
 .tabela{
     margin-left: auto;
@@ -92,8 +93,17 @@ table img:hover{
     bottom: 0; 
     width: 100%;
     background: rgb(224, 64, 38);
-    height: 40rem;
+    height: 35rem;
     color: white;
+}
+@media (max-width: 876px){
+    #Contato{
+        bottom: 0; 
+        width: 100%;
+        background: rgb(224, 64, 38);
+        height: 55rem;
+        color: white;
+    }
 }
 #Direitos{
     background: black;
@@ -146,4 +156,15 @@ table img:hover{
 }
 .whatsapp-botao:hover {
     background-color: rgb(18, 140, 78);
+}
+#imagem-sobre{
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo preta com 50% de transparência */
+    padding: 20px; /* Espaçamento interno do texto dentro do carrossel */
+    border-radius: 10px; /* Raio das bordas para torná-las arredondadas */
+    color: white; /* Cor do texto dentro do carrossel */
 }
