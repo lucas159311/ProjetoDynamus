@@ -104,6 +104,9 @@ table img:hover{
         height: 58rem;
         color: white;
     }
+    .imagem-sobre{
+        display: none;
+    }
 }
 #Direitos{
     background: black;
@@ -157,7 +160,7 @@ table img:hover{
 .whatsapp-botao:hover {
     background-color: rgb(18, 140, 78);
 }
-#imagem-sobre{
+.imagem-sobre{
     margin-left: 0;
     padding: 0;
     width: 100%;
@@ -167,4 +170,10 @@ table img:hover{
     padding: 20px; /* Espaçamento interno do texto dentro do carrossel */
     border-radius: 10px; /* Raio das bordas para torná-las arredondadas */
     color: white; /* Cor do texto dentro do carrossel */
+}
+.mobile{
+    display: none;
+}
+.desktop{
+    display: none;
 }
