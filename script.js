@@ -10,6 +10,57 @@ function VerificaTamanho(){
             mobile.style.display = 'block';
         });
 
+        document.getElementById('carouselMobile').innerHTML = `
+            <div id="carrouselInicial" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carrouselInicial" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrouselInicial" data-slide-to="1"></li>
+                    <li data-target="#carrouselInicial" data-slide-to="2"></li>
+                    <li data-target="#carrouselInicial" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/carousel-inicial/1.jpg" class="d-block w-100 h-100"
+                            alt="Homens trabalhando em uma tubulação" style="object-position: center bottom">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>MANUTENÇÃO INDUSTRIAL</b></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carousel-inicial/2.jpg" class="d-block w-100 h-100"
+                        alt="Eletricista trabalhando">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>CONSTRUÇÃO E MONTAGEM</b></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carousel-inicial/3.jpg" class="d-block w-100 h-100"
+                        alt="Homem trabalhando cortando grama">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>FACILITIES</b></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carousel-inicial/4.jpg" class="d-block w-100 h-100"
+                            alt="Homens trabalhando com empilhadeira">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>OPERACIONAL</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carrouselInicial" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carrouselInicial" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        `;
+
+        document.getElementById('carouselDesktop').innerHTML = "";
+
         document.getElementById('mobileSobre').innerHTML = `
         <h2 align="center">SERVIÇOS</h2>
         <br><br>
@@ -51,9 +102,17 @@ function VerificaTamanho(){
                                     class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="imagens/servicos/manutencao-industrial/manutencao5.png"
-                                class="d-block w-100" alt="...">
-                        </div>
+                                <img src="imagens/servicos/manutencao-industrial/manutencao5.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/manutencao-industrial/manutencao6.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/manutencao-industrial/manutencao7.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-target="#carrouselManutencao"
                             data-slide="prev">
@@ -106,6 +165,10 @@ function VerificaTamanho(){
                             </div>
                             <div class="carousel-item">
                                 <img src="imagens/servicos/construcao-e-montagem/cm4.png" class="d-block w-100"
+                                alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/construcao-e-montagem/cm5.png" class="d-block w-100"
                                 alt="...">
                             </div>
                         </div>
@@ -217,6 +280,10 @@ function VerificaTamanho(){
                                 <img src="imagens/servicos/suporte-operacional/suporte3.png"
                                     class="d-block w-100" alt="...">
                             </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/suporte-operacional/suporte4.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-target="#carrouselSO"
                             data-slide="prev">
@@ -244,6 +311,57 @@ function VerificaTamanho(){
         mobiles.forEach(function(mobile) {
             mobile.style.display = 'none';
         });
+
+        document.getElementById('carouselDesktop').innerHTML = `
+            <div id="carrouselInicial" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carrouselInicial" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrouselInicial" data-slide-to="1"></li>
+                    <li data-target="#carrouselInicial" data-slide-to="2"></li>
+                    <li data-target="#carrouselInicial" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagens/carousel-inicial/desktop/1.jpg" class="d-block w-100 h-100"
+                            alt="Homens trabalhando em uma tubulação" style="object-position: center bottom">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>MANUTENÇÃO INDUSTRIAL</b></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carousel-inicial/desktop/2.jpg" class="d-block w-100 h-100"
+                        alt="Eletricista trabalhando">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>CONSTRUÇÃO E MONTAGEM</b></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carousel-inicial/desktop/3.jpg" class="d-block w-100 h-100"
+                        alt="Homem trabalhando cortando grama">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>FACILITIES</b></h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/carousel-inicial/desktop/4.jpg" class="d-block w-100 h-100"
+                            alt="Homens trabalhando com empilhadeira">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3><b>OPERACIONAL</b></h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carrouselInicial" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carrouselInicial" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </button>
+            </div>
+        `;
+
+        document.getElementById('carouselMobile').innerHTML = "";
 
         document.getElementById('mobileSobre').innerHTML = "";
         document.getElementById('desktopSobre').innerHTML = `
@@ -284,9 +402,17 @@ function VerificaTamanho(){
                                     class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                            <img src="imagens/servicos/manutencao-industrial/manutencao5.png"
-                                class="d-block w-100" alt="...">
-                        </div>
+                                <img src="imagens/servicos/manutencao-industrial/manutencao5.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/manutencao-industrial/manutencao6.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/manutencao-industrial/manutencao7.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-target="#carrouselManutencao"
                             data-slide="prev">
@@ -324,6 +450,10 @@ function VerificaTamanho(){
                             </div>
                             <div class="carousel-item">
                                 <img src="imagens/servicos/construcao-e-montagem/cm4.png" class="d-block w-100"
+                                alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/construcao-e-montagem/cm5.png" class="d-block w-100"
                                 alt="...">
                             </div>
                         </div>
@@ -423,6 +553,10 @@ function VerificaTamanho(){
                             </div>
                             <div class="carousel-item">
                                 <img src="imagens/servicos/suporte-operacional/suporte3.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/servicos/suporte-operacional/suporte4.png"
                                     class="d-block w-100" alt="...">
                             </div>
                         </div>
